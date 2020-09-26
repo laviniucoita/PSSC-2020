@@ -1,0 +1,18 @@
+                                                                Stack Overflow
+
+    Stack Overflow este un website pentru programatori unde utilizatorii pot pune întrebări legate de anumite probleme întâmpinate in programare 
+sau pot răspunde la întrebările celorlalți utilizatori. Aceștia, de asemenea, pot vota un raspuns daca a fost de ajutor si cel mai votat 
+raspuns va avea o bifa verde in dreptul lui. Întrebările pot fi închise daca acestea nu mai sunt relevante sau la zi, iar utilizatorii nu 
+mai pot răspunde sau vota.  
+    Răspunsurile pot fi filtrate pe categorii ca si număr de voturi, active sau cele mai vechi. Acestea pot primii comentarii de la utilizatori 
+pentru a ne atrage atenția daca sunt de folos sau nu. După selectarea unei întrebări, in dreapta paginii se pot găsi întrebări relaționate. 
+Pentru a posta întrebări sau răspunsuri nu e neapărat necesar un cont de utilizator, având posibilitatea de a răspunde ca si vizitator de 
+asemenea utilizând un nume si un email pentru a putea fi identificat. Contul de utilizator poate fi creat folosind un email si o parola, sau 
+prin conectarea cu Google sau Facebook. Întrebările pot fi găsite după tag-uri. 
+    Utilizatorii pot fi si ei căutați si filtrați după anumite criterii precum reputație, utilizatori noi, editori, moderatori si utilizatori 
+care votează des.  
+    Stack Overflow are si opțiune de joburi pentru dezvoltatorii si programatorii care își caută un job. Acestea pot fi cautate, de asemenea, 
+dupa anumite criterii cum ar fi remote sau nu, daca vrei sa lucrezi cu ceva anume, poti selecta un range de salariu etc. La unele job-uri e 
+prezentat si salariul anual.
+    Stack Overflow are si o varianta pentru businesses care poate fi accesata de companii pentru a veni in ajutorul angajatilor. Aceasta 
+varianta ofera acces privat doar angajatilor respectivei companii unde acestia pot adresa sau raspunde la intrebari.  
