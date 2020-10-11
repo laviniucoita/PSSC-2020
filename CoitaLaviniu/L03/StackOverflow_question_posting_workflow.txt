@@ -1,0 +1,38 @@
+Workflow:"Question Posting"
+    Input: "Ask Question"
+    Output: "Question posted" 
+
+//step1
+    Do request for log In
+    if account is invalid then
+        create an account
+    else
+        Open "Ask a public question" form
+
+//step2
+    write question title
+
+//step3
+    write question body
+
+//step4
+    add question tags
+
+//step5
+    post your question
+    return "Question posted" event
+
+Substep:"account is invalid"
+    Input: Sign up
+    Output: logged into account
+    
+//step1
+    enter displayname
+    enter email 
+    enter password
+//step2
+    validate your account via email
+    if validation passed then
+        return user profile form
+    else 
+        return error
