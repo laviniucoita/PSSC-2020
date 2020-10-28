@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.Annotations;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace StackOverflow.Domain.Schema.Questions.AddQuestionOp
 {
     public class AddQuestionCmd
     {
-        public AddQuestionCmd( string title, string body, string tags)
+        public AddQuestionCmd( string title, QuestionLength body, QuestionTags tags)
         {
             Title = title;
             Body = body;
@@ -17,8 +17,11 @@ namespace StackOverflow.Domain.Schema.Questions.AddQuestionOp
         [Required]
         public string Title { get; }
         [Required]
-        public string Body { get; }
+        [MaxLength(1000)]
+        public QuestionLength Body { get; }
         [Required]
-        public string Tags { get; }
+        [MinLength(1)]
+        [MaxLength(3)]
+        public QuestionTags Tags { get; }
     }
 }
